@@ -1,5 +1,6 @@
 @import url('utils.css');
 @import url('components/default.css');
+@import url('components/buttons.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 *{
@@ -7,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: iawriter-mono, Nitti, Menlo, Courier, monospace;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 html {
@@ -21,6 +22,7 @@ body{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -29,11 +31,14 @@ ul {
 
 /* NAVIGATION BAR */
 nav {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 nav > ul {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+nav > ul > li {
+    font-size: 1.3rem;
 }
 

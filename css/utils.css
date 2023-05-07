@@ -4,3 +4,21 @@
     margin: 0 auto;
     border-color: blue;
 }
+
+/*! FONT SIZE */
+.fs-huge {
+    font-size: 4rem;
+}
+
+.fs-3 {
+    font-size: 3rem;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+/*! FONT SIZE END */
+
+.rounded {
+    border-radius: 1em;
+}
