@@ -87,9 +87,10 @@ main {
 .project-links > a {
     display: grid;
     place-items: center;
-    background-color: black;
-    color: white;
+    background-color: var(--primary);
+    color: var(--secondary);
     padding: .3em;
+    border-top: 1px solid var(--secondary);
 }
 
 /*! SECTION 1 END */
@@ -104,6 +105,7 @@ main {
 
 .blog-post-img {
     width: 100%;
+    /* border: 1px solid black; */
 }
 
 .blog-post-title {

@@ -1,8 +1,12 @@
+:root {
+    --primary: black;
+    --secondary: white;
+}
+
 .container {
     width: 1100px;
     height: 100%;
     margin: 0 auto;
-    border-color: blue;
 }
 
 /*! FONT SIZE */

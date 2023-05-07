@@ -1,6 +1,10 @@
 .btn {
-    background-color: black;
-    color: white;
+    background-color: var(--primary);
+    color: var(--secondary);
     padding: 0.5em 1em;
     text-align: center;
+}
+
+.btn > i {
+    color: var(--secondary);
 }
