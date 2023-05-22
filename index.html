@@ -1,100 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="static/img/avatar.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      href="static/img/avatar.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dous | web developer</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/additional/index.css">
-</head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/additional/index.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-E3WHXG5MFF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body>
+      gtag("config", "G-E3WHXG5MFF");
+    </script>
+  </head>
+
+  <body>
     <!-- start date - 7th may 2023 -->
     <div class="container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="/">home</a></li>
-                    <li><a href="static/resume.pdf" target="_blank">resume</a></li>
-                    <li onclick="themeSwap()"><i id="theme-icon" class="fa-solid fa-moon theme-btn"></i></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="section-1">
-                <header>
-                    <div class="section-1-header-content">
-                        <h1 class="fs-huge">dous</h1>
-                        <p style="opacity: 0.8;">web developer</p>
-                    </div>
-                    <div class="section-1-header-profile"></div>
-                </header>
-                <section class="description">
-                    <p>Hello! I am Dogukan(aka dous). I am a sophomore Computer Engineering student in <b>Akdeniz University</b>.
-                        <br>I am mainly interested in <b>Web Development</b>, also <b>Game Development</b>.
-                        <br><br>
-                        <b>Currently learning:</b> javascript & php
-                    </p>
-                    <footer class="description-links">
-                        <a href="mailto:dogukancelik9@outlook.com" class="btn"><i class="fa-solid fa-envelope"></i> contact me</a>
-                    </footer>
-                </section>
-                <footer class="projects">
-                    <article>
-                        <img class="project-img" src="static/img/loyalapp.png" alt="LoyalApp">
-                        <footer class="project-links" style="grid-template-columns: 1fr;">
-                            <a href="https://loyalapp.xyz/" target="_blank">live</a>
-                        </footer>
-                        <p class="project-title">LoyalApp.xyz</p>
-                    </article>
-                    <article>
-                        <img class="project-img" src="static/img/gdscakdeniz.png" alt="GDSC Akdeniz">
-                        <footer class="project-links">
-                            <a href="https://akdenizdsc.netlify.app/" target="_blank">live</a>
-                            <a href="https://github.com/dogusmiuw/akdenizgdsc" target="_blank">source code</a>
-                        </footer>
-                        <p class="project-title">GDSC Akdeniz</p>
-                    </article>
-                    <article>
-                        <img class="project-img" src="static/img/landingpage.png" alt="Landing Page">
-                        <footer class="project-links">
-                            <a href="https://dogusmiuw-personal-landing-page.netlify.app/" target="_blank">live</a>
-                            <a href="https://github.com/dogusmiuw/personal-landing-page" target="_blank">source code</a>
-                        </footer>
-                        <p class="project-title">Landing Page (old)</p>
-                    </article>
-                </footer>
-            </section>
-            <section class="section-2">
-                <article class="last-blog-post">
-                    <img src="https://assets.leetcode.com/uploads/2021/02/10/hint_transpose.png" alt="Matrix Transpose" class="blog-post-img">
-                    <div class="blog-post-title">
-                        <h2>Transposing a Matrix in Java</h2>
-                    </div>
-                    <p class="blog-post-desc">
-                        Sometimes you may need to transpose a matrix. For example while working on linear algebra.
-                        I choose Java to do this operation, however you can use any language. Even if the syntax
-                        changes, the logic
-                        always will be the same.
-                    </p>
-                    <footer class="blog-post-link">
-                        <a href="https://medium.com/@douss/transposing-a-matrix-in-java-fddef818f0e9" target="_blank"
-                            class="btn">read more</a>
-                    </footer>
-                </article>
-                <footer class="social">
-                    <a href="https://github.com/dogusmiuw" target="_blank"><i class="fa-brands fa-github fs-2"></i></a>
-                    <a href="https://douss.medium.com" target="_blank"><i class="fa-brands fa-medium fs-2"></i></a>
-                    <a href="https://linkedin.com/in/dogukancelik" target="_blank"><i
-                            class="fa-brands fa-linkedin fs-2"></i></a>
-                </footer>
-            </section>
-        </main>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="static/resume.pdf" target="_blank">resume</a></li>
+            <li onclick="themeSwap()">
+              <i id="theme-icon" class="fa-solid fa-moon theme-btn"></i>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="section-1">
+          <header>
+            <div class="section-1-header-content">
+              <h1 class="fs-huge">dous</h1>
+              <p style="opacity: 0.8">web developer</p>
+            </div>
+            <div class="section-1-header-profile"></div>
+          </header>
+          <section class="description">
+            <p>
+              Hello! I am Dogukan(aka dous). I am a sophomore Computer
+              Engineering student in <b>Akdeniz University</b>. <br />I am
+              mainly interested in <b>Web Development</b>, also
+              <b>Game Development</b>. <br /><br />
+              <b>Currently learning:</b> javascript & php
+            </p>
+            <footer class="description-links">
+              <a href="mailto:dogukancelik9@outlook.com" class="btn"
+                ><i class="fa-solid fa-envelope"></i> contact me</a
+              >
+            </footer>
+          </section>
+          <footer class="projects">
+            <article>
+              <img
+                class="project-img"
+                src="static/img/loyalapp.png"
+                alt="LoyalApp"
+              />
+              <footer class="project-links" style="grid-template-columns: 1fr">
+                <a href="https://loyalapp.xyz/" target="_blank">live</a>
+              </footer>
+              <p class="project-title">LoyalApp.xyz</p>
+            </article>
+            <article>
+              <img
+                class="project-img"
+                src="static/img/gdscakdeniz.png"
+                alt="GDSC Akdeniz"
+              />
+              <footer class="project-links">
+                <a href="https://akdenizdsc.netlify.app/" target="_blank"
+                  >live</a
+                >
+                <a
+                  href="https://github.com/dogusmiuw/akdenizgdsc"
+                  target="_blank"
+                  >source code</a
+                >
+              </footer>
+              <p class="project-title">GDSC Akdeniz</p>
+            </article>
+            <article>
+              <img
+                class="project-img"
+                src="static/img/landingpage.png"
+                alt="Landing Page"
+              />
+              <footer class="project-links">
+                <a
+                  href="https://dogusmiuw-personal-landing-page.netlify.app/"
+                  target="_blank"
+                  >live</a
+                >
+                <a
+                  href="https://github.com/dogusmiuw/personal-landing-page"
+                  target="_blank"
+                  >source code</a
+                >
+              </footer>
+              <p class="project-title">Landing Page (old)</p>
+            </article>
+          </footer>
+        </section>
+        <section class="section-2">
+          <article class="last-blog-post">
+            <img
+              src="https://assets.leetcode.com/uploads/2021/02/10/hint_transpose.png"
+              alt="Matrix Transpose"
+              class="blog-post-img"
+            />
+            <div class="blog-post-title">
+              <h2>Transposing a Matrix in Java</h2>
+            </div>
+            <p class="blog-post-desc">
+              Sometimes you may need to transpose a matrix. For example while
+              working on linear algebra. I choose Java to do this operation,
+              however you can use any language. Even if the syntax changes, the
+              logic always will be the same.
+            </p>
+            <footer class="blog-post-link">
+              <a
+                href="https://medium.com/@douss/transposing-a-matrix-in-java-fddef818f0e9"
+                target="_blank"
+                class="btn"
+                >read more</a
+              >
+            </footer>
+          </article>
+          <footer class="social">
+            <a href="https://github.com/dogusmiuw" target="_blank"
+              ><i class="fa-brands fa-github fs-2"></i
+            ></a>
+            <a href="https://douss.medium.com" target="_blank"
+              ><i class="fa-brands fa-medium fs-2"></i
+            ></a>
+            <a href="https://linkedin.com/in/dogukancelik" target="_blank"
+              ><i class="fa-brands fa-linkedin fs-2"></i
+            ></a>
+          </footer>
+        </section>
+      </main>
     </div>
     <script src="js/theme.js"></script>
-</body>
-
+  </body>
 </html>
